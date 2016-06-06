@@ -3,8 +3,8 @@ import {shallow} from 'enzyme';
 import {expect} from 'chai';
 import sinon from 'sinon';
 import FuelSavingsForm from './FuelSavingsForm';
-import FuelSavingsTextInput from './FuelSavingsTextInput';
-import FuelSavingsResults from './FuelSavingsResults';
+import FuelSavingsTextInput from '../FuelSavingsTextInput/FuelSavingsTextInput';
+import FuelSavingsResults from '../FuelSavingsResults/FuelSavingsResults';
 
 describe('<FuelSavingsForm />', () => {
   it('should contain <FuelSavingsTextInput /> components', () => {
