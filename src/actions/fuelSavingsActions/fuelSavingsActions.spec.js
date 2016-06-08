@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import * as ActionCreators from './fuelSavingsActions';
-import * as ActionTypes from '../constants/actionTypes';
+import * as ActionTypes from './fuelSavingsActionTypes';
 
 describe('Actions', () => {
   const appState = {

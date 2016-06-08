@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import * as ActionTypes from '../constants/actionTypes';
+import * as ActionTypes from '../actions/fuelSavingsActions/fuelSavingsActionTypes';
 import reducer from './fuelSavingsReducer';
 import dateHelper from '../businessLogic/dateHelper';
 

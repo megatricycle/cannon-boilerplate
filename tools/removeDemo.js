@@ -9,7 +9,6 @@ const pathsToRemove = [
   './src/actions/*',
   './src/businessLogic',
   './src/components/*',
-  './src/constants/*',
   './src/containers/*',
   './src/images',
   './src/reducers/*',
